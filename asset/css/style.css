@@ -1,0 +1,39 @@
+#carrello {
+	padding: 20px;
+	height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+	#carrello {
+		height: 50vh;
+		position: -webkit-static;
+		position: static;
+	}
+}
+
+#lista-carrello {
+	list-style-type: none;
+	padding: 0;
+}
+
+.card-title {
+	display: block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card-img-top {
+	margin-top: 10px;
+	max-height: 200px;
+	object-fit: contain;
+}
+
+.card {
+	background-color: #605d5d;
+}
+
+.btn.btn-danger {
+	margin-bottom: 10px;
+}

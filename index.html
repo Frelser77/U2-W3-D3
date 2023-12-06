@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookshelf</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="./asset/css/style.css" />
+	</head>
+	<body class="bg-dark">
+		<div class="container-fluid">
+			<h1 class="text-white text-center my-5">Bookshelf Epicode</h1>
+			<div class="row my-5">
+				<!-- Sezione Carrello -->
+				<div class="col-md-3 overflow-auto sticky-top d-md-block" id="carrello">
+					<div class="bg-secondary rounded-5">
+						<h4 class="text-light text-center p-2">Carrello</h4>
+					</div>
+					<ul id="lista-carrello" class="list-group"></ul>
+				</div>
+
+				<!-- Contenuto Principale -->
+				<div class="col-md-8 bg-secondary rounded-5">
+					<div class="row mx-5 mx-md-auto mx-md-2" id="book-container"></div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+		<script src="./asset/js/script.js"></script>
+	</body>
+</html>
